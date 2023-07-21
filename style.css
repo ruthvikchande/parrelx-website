@@ -1,0 +1,58 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+html,body{
+
+    height: 100%;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400px;
+    line-height: 1.8rem;
+    color: #666;
+}
+.pimage1{
+    background-image: url(image1.png);
+    min-height: 100%;
+   
+}
+.pimage2{
+    background-image: url(image2.png);
+    min-height: 400px;
+}
+.pimage3{
+    background-image: url(image3.png);
+    min-height: 400px;
+
+}
+.pimage1,.pimage2,.pimage3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    color: black;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.textbg{
+    background-color: grey;
+    padding: 20px;
+    color: white;
+}
+.sectionlight{
+    padding: 30px 80px;
+    text-align: center;
+    background-color: white;
+    color: grey;
+
+}
